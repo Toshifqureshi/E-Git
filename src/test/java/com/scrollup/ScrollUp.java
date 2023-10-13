@@ -15,6 +15,8 @@ public class ScrollUp {
 		driver.findElement(By.xpath("//input[@id=\"t1\"]"));
 		JavascriptExecutor js = (JavaScriptExecutor)driver;
 		js.executeScript("hi", args);
+		
+		System.out.println("hello");
 	}
 
 }
